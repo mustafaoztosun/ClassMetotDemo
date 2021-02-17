@@ -9,7 +9,7 @@ namespace ClassMetotDemo
 
         public void Add(Musteri musteri)
         {
-            Console.WriteLine("Tebrikler. Müşteriler Listeye Eklendi: " + musteri.Id + " : " + musteri.Adi + " : " + musteri.Soyadi + " : " + musteri.KimlikNo );
+            Console.WriteLine("Tebrikler. Listeye Eklendi: " + musteri.Id + " : " + musteri.Adi + " : " + musteri.Soyadi + " : " + musteri.KimlikNo );
         }
     }
 }
